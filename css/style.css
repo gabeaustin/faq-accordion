@@ -34,3 +34,15 @@
 .attribution {
   color: #3e52a3;
 }
+
+
+
+/*** Media Queries ***/
+/* desktop */
+@media only screen and (min-width: 768px) {}
+
+/* tablet */
+@media only screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* mobile */
+@media only screen and (max-width: 600px) {}
