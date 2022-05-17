@@ -3,6 +3,28 @@
   margin: 0;
 }
 
+:root {
+  /*** Primary Colors ***/
+  /** Text **/
+  --dark-blue: #1d1e35;
+  --orange-red: #f47c57;
+
+  /** Gradient **/
+  /* Background Gradient */
+  --purple: #af67e9;
+  --soft-blue: #6565e7;
+
+  /*** Neutral Colors ***/
+  /** Text **/
+  --grayish-blue: #4a4b5e;
+  --dark-grayish-blue: #787887;
+
+  /** Dividers **/
+  --light-gray: #e7e7e9;
+
+  /*** Typography ***/
+}
+
 .attribution {
   font-size: 12px;
   text-align: center;
