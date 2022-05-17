@@ -26,6 +26,7 @@
   font-family: "Khula", sans-serif;
 }
 
+/*** Footer ***/
 .attribution {
   font-size: 12px;
   text-align: center;
@@ -45,4 +46,16 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {}
 
 /* mobile */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  /*** Main Body Container ***/
+  .container {
+    display: flex;
+    flex-direction: column;
+    outline: solid salmon 3px;
+  }
+
+  .copy-side,
+  .image-side {
+    width: 50vw;
+  }
+}
